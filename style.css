@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body{
+    background-color: rgb(37, 35, 35);
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    border: solid 25px;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(37, 35, 35);
+    
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: cascadia code;
+    color: rgb(252, 227, 0);
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(37, 35, 35)
+}
+a:hover{
+    color: rgb(113, 183, 245);
+}
+
+   
+
+
+#foto {
+    border: solid rgb(255, 255, 255);
+    border-radius: 15px;   
+    float: right;
+    
+}
+
+
+.description {
+    color: aliceblue;
+    font-size: 25px;
+    padding-bottom: 8em;
+    padding-top: 15px;
+    padding-left: 2em;
+}
+
+#descr{
+    color: rgb(252, 227, 0);
+    padding-bottom: 10px;
+}
+
+strong {
+    color: rgb(252, 227, 0);
+}
+
+button {
+    border: solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    color: rgb(37, 35, 35);
+    background-color: rgb(252, 227, 0);
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+button:hover{
+   background-color: rgb(255, 255, 255);
+}
+
+#button-papo {
+    padding: 2em;
+    text-align: center;
+}
