@@ -1,23 +1,32 @@
-* {
+*{
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
 }
 body{
     background-color: rgb(37, 35, 35);
 }
 
-.header {
+.header{
     background-color: rgb(255, 255, 255);
     border: solid 25px;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color: rgb(255, 255, 255);
     text-align: center;
     font-size: 25px;
     color: rgb(37, 35, 35);
     
 }
+#trybe{
+    height: 60px;
+    width: 60px;
+    float: left;
+    
+} 
+
 
 h1 {
     padding-top: 20px;
@@ -29,38 +38,42 @@ h1 {
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(37, 35, 35);
 }
 
 a{
-    color: rgb(37, 35, 35)
+    color: rgb(37, 35, 35);
 }
 a:hover{
-    color: rgb(113, 183, 245);
+    color: rgb(64, 70, 151)
 }
 
    
-
+.aling-photo{
+    float: right;
+    padding: 30px;
+    
+    
+}
 
 #foto {
     border: solid rgb(255, 255, 255);
-    border-radius: 15px;   
-    float: right;
-    
+    border-radius: 100%;    
 }
 
 
 .description {
     color: aliceblue;
     font-size: 25px;
-    padding-bottom: 8em;
-    padding-top: 15px;
+    padding-bottom: 3em;
+    padding-top: 100px;
     padding-left: 2em;
 }
 
 #descr{
     color: rgb(252, 227, 0);
     padding-bottom: 10px;
+    padding-right: 300px;
 }
 
 strong {
@@ -77,14 +90,55 @@ button {
     font-weight: bold;
     padding: 20px;
     font-size: 20px;
+    box-shadow: 0.5px 0.5px 0 rgb(238, 228, 228), -2px 6px 0 black;
 
 }
 
 button:hover{
    background-color: rgb(255, 255, 255);
+   
 }
+
+button:active {
+    background-color: rgb(64, 70, 151);
+    /*box-shadow: inset -2px 4px 0 #222;*/
+   /* font-size: 18px;*/
+ 
+    text-align: center;
+}
+
+
 
 #button-papo {
     padding: 2em;
+    text-align:justify;
+    padding-top: 5%;
+    padding-left: 41%;
+    padding-bottom: 00.5px;
+}
+
+.habs {
+    
+    padding-top: 3%;
+    margin: 0;
+    background-color: aliceblue;
+    color: rgb(37, 35, 35);
+}
+
+#title-hab {
+    color: rgb(37, 35, 35);
     text-align: center;
+    font-size: 2em;
+}
+
+#lista-habs{
+    padding-top: 4%;
+    text-align: center;
+    font-size: 90px;
+    padding-bottom: 5%;
+}
+
+.fa-brands:hover{
+    color: rgb(64, 70, 151);
+    cursor: pointer;
 }
