@@ -50,8 +50,7 @@ a:hover{
 
    
 .aling-photo{
-    float: right;
-    padding: 30px;
+    padding: 10px;
     
     
 }
@@ -59,15 +58,19 @@ a:hover{
 #foto {
     border: solid rgb(255, 255, 255);
     border-radius: 100%;    
+    position: absolute;
+    right: 40px;
+    bottom: auto;
 }
 
 
 .description {
     color: aliceblue;
     font-size: 25px;
-    padding-bottom: 3em;
-    padding-top: 100px;
+    padding-bottom: 2em;
+    padding-top: 80px;
     padding-left: 2em;
+    margin-right: 400px;
 }
 
 #descr{
@@ -113,7 +116,7 @@ button:active {
     padding: 2em;
     text-align:justify;
     padding-top: 5%;
-    padding-left: 41%;
+    padding-left: 53%;
     padding-bottom: 00.5px;
 }
 
@@ -142,3 +145,55 @@ button:active {
     color: rgb(64, 70, 151);
     cursor: pointer;
 }
+
+
+
+#tittle-redes {
+    padding-top: 4%;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: cascadia code;
+    color: rgb(252, 227, 0);
+    font-size: 2em;
+}
+
+#redes{
+    padding-top: 4%;
+    font-size: 110px;
+    padding-bottom: 5%;
+    
+    
+}
+
+
+.fa-linkedin{
+    color: rgb(255, 255, 255);
+}
+
+.fa-github{
+    color: rgb(255, 255, 255);
+   
+
+}
+
+.fa-linkedin:active, .fa-github:active{
+    font-size: 220px;
+    transition-duration: initial;
+}
+
+#programming {
+    width: 400px;
+    position: absolute;
+    right: 70%;
+    padding-bottom: 5%
+}
+
+
+.contingente {
+    background-color: rgb(185, 94, 94);
+    border-radius: 8px;
+    position: absolute;
+    left: 60%;
+    padding: 5%    
+}
+
